@@ -8,6 +8,7 @@ body {
     background-color:hsl(212, 45%, 89%) ;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -55,3 +56,39 @@ p {
 
 
 
+@media (min-width: 504px)  {
+    .container {
+        width: 70%;
+        height: auto;
+    }
+}
+
+ @media (min-width: 655px) {
+    .container {
+        width: 55%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 841px) {
+    .container {
+        width: 45%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1012px) {
+    .container {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1191px) and (max-width: 1440px) {
+    .container {
+        width: 20%;
+        height: auto;
+    }
+} 
